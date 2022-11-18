@@ -1,0 +1,24 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bc774304-f383-40ea-9cf9-8ebc0e2f986f" name="allan@192.168.32.22:22 password">
+        <fileTransfer accessType="SFTP" host="192.168.32.22" port="22" sshConfigId="23031976-8ee1-4f66-ba66-5813bcf338ca" sshConfig="allan@192.168.32.22:22 password" />
+      </webServer>
+      <webServer id="a11495dd-a54f-494a-b046-03aac626ed80" name="allan@192.168.32.22:22 password (1)">
+        <fileTransfer accessType="SFTP" host="192.168.32.22" port="22" sshConfigId="23031976-8ee1-4f66-ba66-5813bcf338ca" sshConfig="allan@192.168.32.22:22 password" />
+      </webServer>
+      <webServer id="73418e44-02e8-4af7-95bb-800eb08f0859" name="devbox">
+        <fileTransfer rootFolder="/data00/home/allan" accessType="SFTP" host="10.227.24.105" port="22" sshConfigId="242ecf98-667e-48af-836f-8667b5925cbb" sshConfig="allan@10.227.24.105:22 password" />
+      </webServer>
+      <webServer id="3356f1b7-a5d2-4896-ab06-6f1e45b66f34" name="workspace">
+        <fileTransfer rootFolder="/root/" accessType="SFTP" host="workspace" port="32609" sshConfigId="4bff14c4-9671-4cd3-b7f9-78c9d473b28b" sshConfig="root@workspace:32609 key" keyPair="true" />
+      </webServer>
+      <webServer id="11423bf7-cb59-4074-9348-d0f6336ab730" name="root@workspace:32609 key">
+        <fileTransfer rootFolder="/root" accessType="SFTP" host="workspace" port="32609" sshConfigId="4bff14c4-9671-4cd3-b7f9-78c9d473b28b" sshConfig="root@workspace:32609 key" keyPair="true" />
+      </webServer>
+      <webServer id="7c705c1e-5a67-498e-886e-f00e26687e6c" name="allan@10.227.24.105:22 password">
+        <fileTransfer accessType="SFTP" host="10.227.24.105" port="22" sshConfigId="242ecf98-667e-48af-836f-8667b5925cbb" sshConfig="allan@10.227.24.105:22 password" />
+      </webServer>
+    </option>
+  </component>
+</application>

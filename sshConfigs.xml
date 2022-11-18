@@ -1,0 +1,9 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="192.168.32.22" id="23031976-8ee1-4f66-ba66-5813bcf338ca" port="22" nameFormat="DESCRIPTIVE" username="allan" />
+      <sshConfig connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="workspace" id="4bff14c4-9671-4cd3-b7f9-78c9d473b28b" keyPath="$USER_HOME$/.ssh/id_rsa" port="32609" nameFormat="DESCRIPTIVE" username="root" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="10.227.24.105" id="242ecf98-667e-48af-836f-8667b5925cbb" port="22" nameFormat="DESCRIPTIVE" username="allan" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</application>
